@@ -15,25 +15,30 @@ class ProfileCard extends StatelessWidget {
         children: [
           RiskIndicator(value: userProfile.riskIndicator),
           const SizedBox(width: 16),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                userProfile.name,
-                style: const TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
+          Expanded(
+            // Ensures the Column doesn't overflow
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  userProfile.name,
+                  style: const TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis, // Truncates long text
                 ),
-              ),
-              Text(
-                userProfile.riskLevel,
-                style: const TextStyle(fontSize: 16),
-              ),
-              Text(
-                '${userProfile.age}',
-                style: const TextStyle(fontSize: 16),
-              ),
-            ],
+                Text(
+                  userProfile.riskLevel,
+                  style: const TextStyle(fontSize: 16),
+                ),
+                Text(
+                  '${userProfile.age}',
+                  style: const TextStyle(fontSize: 16),
+                ),
+              ],
+            ),
           ),
         ],
       ),

@@ -11,7 +11,7 @@ class ProfileListView extends StatelessWidget {
     final users = List.generate(
       1,
       (index) => UserProfile(
-        name: "User $index",
+        name: "User $index asfjaslkdfklasjkfjakjsdfkaksdj",
         riskLevel: "High",
         age: 20,
         riskIndicator: 0.7, // Example risk values (0.0 to 1.0)

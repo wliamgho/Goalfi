@@ -4,6 +4,7 @@ import 'package:goalfi/features/main_tab/main_tab_bar.dart';
 import 'package:goalfi/features/market/presentation/market.dart';
 import 'package:goalfi/splash/splashScreen.dart';
 import 'package:goalfi/features/homepage/presentation/homepage.dart';
+import 'package:goalfi/features/question/intro_question/presentation/intro_question.dart';
 
 class AppRouter {
   static const String splash = '/';
@@ -11,6 +12,7 @@ class AppRouter {
   static const String home = '/home';
   static const String market = '/market';
   static const String calculatorTab = '/calculator';
+  static const String introQuestion = '/intro';
 
   /// Maps route names to widgets
   static Widget _getScreen(String routeName) {
@@ -22,6 +24,8 @@ class AppRouter {
         return const MainTabBar();
       case home:
         return const HomePage();
+      case introQuestion:
+        return const IntroQuestion();
       case market:
         return const Market();
       case calculatorTab:
