@@ -37,6 +37,7 @@ class _MainTabBarState extends State<MainTabBar>
   Widget build(BuildContext context) {
     return Scaffold(
       body: TabBarView(
+        physics: const NeverScrollableScrollPhysics(),
         controller: _tabController,
         children: [
           buildNavigator(
