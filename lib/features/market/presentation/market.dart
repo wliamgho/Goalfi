@@ -7,7 +7,6 @@ class Market extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-      title: const Text('Market'),
-    ));
+            automaticallyImplyLeading: false, title: const Text('Market')));
   }
 }

@@ -60,7 +60,7 @@ class RiskIndicator extends StatelessWidget {
         alignment: Alignment.center,
         children: [
           CustomPaint(
-            size: const Size(120, 120), // The size of the custom circle
+            size: const Size(120, 160), // The size of the custom circle
             painter: CircularProgressPainter(
               progress: value,
               strokeWidth: 12, // Thickness of the circle
