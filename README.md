@@ -48,7 +48,7 @@ To address these challenges, Smart Money Flow will:
 - **Secure and Compliant**: Ensure data privacy and security in compliance with GDPR/CCPA.
 
 ## 🔧 **Technology Stack**
-- **Frontend**: SwiftUI for a sleek and responsive user interface.
+- **Apps**: Flutter for a sleek and responsive user interface.
 - **Backend**: Firebase (or Node.js/Django for custom scalability).
 - **Database**: Realm for offline data handling and MongoDB/PostgreSQL for structured storage.
 - **APIs**: Integration with Plaid for transaction data and Fixer.io for ROI and currency calculations.
