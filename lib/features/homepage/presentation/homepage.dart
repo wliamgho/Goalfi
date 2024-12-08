@@ -4,7 +4,7 @@ import 'package:goalfi/features/homepage/profile_card/profile_list.dart';
 import 'package:goalfi/features/question/intro_question/domain/intro_question_model.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   Future<IntroQuestionData?> _loadProfileData() async {
     return await IntroQuestionData.loadFromPrefs();

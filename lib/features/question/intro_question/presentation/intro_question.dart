@@ -3,7 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:goalfi/features/homepage/presentation/homepage.dart';
 
 class IntroQuestion extends StatelessWidget {
-  const IntroQuestion({Key? key}) : super(key: key);
+  const IntroQuestion({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,13 +12,13 @@ class IntroQuestion extends StatelessWidget {
 }
 
 class QuestionSlides extends StatefulWidget {
-  const QuestionSlides({Key? key}) : super(key: key);
+  const QuestionSlides({super.key});
 
   @override
-  _QuestionSlidesState createState() => _QuestionSlidesState();
+  QuestionSlidesState createState() => QuestionSlidesState();
 }
 
-class _QuestionSlidesState extends State<QuestionSlides> {
+class QuestionSlidesState extends State<QuestionSlides> {
   final PageController _pageController = PageController();
   final TextEditingController _nameController = TextEditingController();
   final TextEditingController _ageController = TextEditingController();
@@ -116,12 +116,12 @@ class QuestionCard extends StatelessWidget {
   final VoidCallback? onPrevious;
 
   const QuestionCard({
-    Key? key,
+    super.key,
     required this.question,
     required this.inputField,
     this.onNext,
     this.onPrevious,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

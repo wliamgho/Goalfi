@@ -5,7 +5,7 @@ import '../domain/profile_card/user_profile_data.dart';
 class ProfileCard extends StatelessWidget {
   final UserProfile userProfile;
 
-  const ProfileCard({Key? key, required this.userProfile}) : super(key: key);
+  const ProfileCard({super.key, required this.userProfile});
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +49,7 @@ class ProfileCard extends StatelessWidget {
 class RiskIndicator extends StatelessWidget {
   final double value;
 
-  const RiskIndicator({Key? key, required this.value}) : super(key: key);
+  const RiskIndicator({super.key, required this.value});
 
   @override
   Widget build(BuildContext context) {
