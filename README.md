@@ -1,8 +1,6 @@
-# goalfi
+# GoalFi
 
-# Smart Money Flow App
-
-Smart Money Flow is a personal finance app designed to simplify the management of income by automating its allocation into essential financial categories such as monthly expenses, home installments, unforeseen expenses, and savings. The app aims to provide personalized insights, track financial goals, and optimize the user's money flow for better financial health.
+GoalFi combines "Goal" and "Finance" to indicate the perfect savings combination as a smart Money Flow control for the personal finance app designed to simplify income management by automating its allocation into essential financial categories such as monthly expenses, home installments, unforeseen expenses, and savings. The app aims to provide personalized insights, track financial goals, and optimize the user's money flow for better financial health.
 
 ## 🌟 **Goal**
 Our mission is to empower individuals to take control of their finances by providing an intuitive, automated system for income allocation, financial goal tracking, and risk assessment. The app will:
